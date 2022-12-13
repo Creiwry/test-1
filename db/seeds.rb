@@ -26,15 +26,14 @@ end
     duration: Faker::Number.within(range: 60..3000),
     title: Faker::Lorem.words(number: 4),
     description: Faker::Lorem.paragraph,
-    location: Faker::Address.city,
-    organiser: User.all.sample
+    location: Faker::Address.city
   )
 end
 
 40.times do
   Participation.create(
     payment_type: Faker::Lorem.words(number: 1),
-    participant: User.all.sample,
+    user: User.all.sample,
     event: Event.all.sample
   )
 end

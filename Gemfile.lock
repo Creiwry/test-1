@@ -100,8 +100,8 @@ GEM
       railties (>= 6.0.0)
     io-console (0.5.11)
     io-wait (0.2.1)
-    irb (1.4.1)
-      reline (>= 0.3.0)
+    irb (1.3.7)
+      reline (>= 0.2.7)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
@@ -223,6 +223,7 @@ DEPENDENCIES
   debug
   faker
   importmap-rails
+  irb (~> 1.3.5)
   jbuilder
   nokogiri
   puma (~> 5.0)

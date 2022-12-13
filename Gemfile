@@ -50,6 +50,8 @@ gem "bootsnap", require: false
 
 gem "nokogiri"
 
+gem 'irb', '~> 1.3.5'
+
 gem 'faker'
 
 gem 'table_print'

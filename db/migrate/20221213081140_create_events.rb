@@ -7,7 +7,6 @@ class CreateEvents < ActiveRecord::Migration[7.0]
       t.string :title
       t.text :description
       t.string :location
-      t.belongs_to :organiser, index: true
 
       t.timestamps
     end
